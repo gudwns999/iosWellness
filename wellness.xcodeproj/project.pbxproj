@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD350FB01CE521E000CA36DC /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = DD350FAF1CE521E000CA36DC /* sample.png */; };
+		DD350FB21CE5259500CA36DC /* SNSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD350FB11CE5259500CA36DC /* SNSTabBarController.swift */; };
+		DD350FB41CE61A1700CA36DC /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD350FB31CE61A1700CA36DC /* Login.swift */; };
 		DD6D90BA1CD39BD0004E3D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D90B91CD39BD0004E3D62 /* AppDelegate.swift */; };
 		DD6D90BC1CD39BD0004E3D62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D90BB1CD39BD0004E3D62 /* ViewController.swift */; };
 		DD6D90BF1CD39BD0004E3D62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6D90BD1CD39BD0004E3D62 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		DD6D90C41CD39BD0004E3D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6D90C21CD39BD0004E3D62 /* LaunchScreen.storyboard */; };
 		DD6D90CF1CD39BD0004E3D62 /* wellnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D90CE1CD39BD0004E3D62 /* wellnessTests.swift */; };
 		DD6D90DA1CD39BD0004E3D62 /* wellnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D90D91CD39BD0004E3D62 /* wellnessUITests.swift */; };
+		DDA2AFFB1CD63E5D00F2FD55 /* SNSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2AFFA1CD63E5D00F2FD55 /* SNSViewController.swift */; };
+		DDA2AFFD1CD63F0100F2FD55 /* WellnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2AFFC1CD63F0100F2FD55 /* WellnessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD350FAF1CE521E000CA36DC /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample.png; path = ../../../../Downloads/sample.png; sourceTree = "<group>"; };
+		DD350FB11CE5259500CA36DC /* SNSTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSTabBarController.swift; sourceTree = "<group>"; };
+		DD350FB31CE61A1700CA36DC /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		DD6D90B61CD39BD0004E3D62 /* wellness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wellness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6D90B91CD39BD0004E3D62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD6D90BB1CD39BD0004E3D62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		DD6D90D51CD39BD0004E3D62 /* wellnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wellnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6D90D91CD39BD0004E3D62 /* wellnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wellnessUITests.swift; sourceTree = "<group>"; };
 		DD6D90DB1CD39BD0004E3D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA2AFFA1CD63E5D00F2FD55 /* SNSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSViewController.swift; sourceTree = "<group>"; };
+		DDA2AFFC1CD63F0100F2FD55 /* WellnessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WellnessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		DD6D90B81CD39BD0004E3D62 /* wellness */ = {
 			isa = PBXGroup;
 			children = (
+				DDA2AFFC1CD63F0100F2FD55 /* WellnessViewController.swift */,
+				DDA2AFFA1CD63E5D00F2FD55 /* SNSViewController.swift */,
 				DD6D90B91CD39BD0004E3D62 /* AppDelegate.swift */,
+				DD350FB31CE61A1700CA36DC /* Login.swift */,
 				DD6D90BB1CD39BD0004E3D62 /* ViewController.swift */,
+				DD350FAF1CE521E000CA36DC /* sample.png */,
 				DD6D90BD1CD39BD0004E3D62 /* Main.storyboard */,
 				DD6D90C01CD39BD0004E3D62 /* Assets.xcassets */,
 				DD6D90C21CD39BD0004E3D62 /* LaunchScreen.storyboard */,
 				DD6D90C51CD39BD0004E3D62 /* Info.plist */,
+				DD350FB11CE5259500CA36DC /* SNSTabBarController.swift */,
 			);
 			path = wellness;
 			sourceTree = "<group>";
@@ -232,6 +247,7 @@
 				DD6D90C41CD39BD0004E3D62 /* LaunchScreen.storyboard in Resources */,
 				DD6D90C11CD39BD0004E3D62 /* Assets.xcassets in Resources */,
 				DD6D90BF1CD39BD0004E3D62 /* Main.storyboard in Resources */,
+				DD350FB01CE521E000CA36DC /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD6D90BC1CD39BD0004E3D62 /* ViewController.swift in Sources */,
+				DD350FB21CE5259500CA36DC /* SNSTabBarController.swift in Sources */,
+				DDA2AFFB1CD63E5D00F2FD55 /* SNSViewController.swift in Sources */,
+				DD350FB41CE61A1700CA36DC /* Login.swift in Sources */,
 				DD6D90BA1CD39BD0004E3D62 /* AppDelegate.swift in Sources */,
+				DDA2AFFD1CD63F0100F2FD55 /* WellnessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +502,7 @@
 				DD6D90E01CD39BD0004E3D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD6D90E11CD39BD0004E3D62 /* Build configuration list for PBXNativeTarget "wellnessTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				DD6D90E31CD39BD0004E3D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD6D90E41CD39BD0004E3D62 /* Build configuration list for PBXNativeTarget "wellnessUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				DD6D90E61CD39BD0004E3D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

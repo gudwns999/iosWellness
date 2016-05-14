@@ -8,18 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
+ 
 
+    @IBOutlet var myWebView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let url = NSURL (string: "http://www.gudwns999.com");
+        let requestObj = NSURLRequest(URL: url!);
+        self.myWebView.loadRequest(requestObj);
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-kk
+    
 }
-
