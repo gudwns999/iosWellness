@@ -8,6 +8,6 @@
 
 import UIKit
 import Foundation
-class SNSTabBarController : UITabBarController{
+class SNSTabBar: UITabBarController{
     
 }
