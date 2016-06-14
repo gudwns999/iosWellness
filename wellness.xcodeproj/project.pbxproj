@@ -279,6 +279,7 @@
 				DD59E4131D070AE100F5C291 /* Source */,
 			);
 			name = SocketIO;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DD59E4131D070AE100F5C291 /* Source */ = {
@@ -317,6 +318,7 @@
 				DD59E4411D070B9200F5C291 /* SocketIO */,
 			);
 			name = SocketChat;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DD59E4411D070B9200F5C291 /* SocketIO */ = {
@@ -341,8 +343,6 @@
 			children = (
 				DD01481D1CEC5E5800C79D96 /* Alamofire.xcodeproj */,
 				DD6D90B71CD39BD0004E3D62 /* Products */,
-				DD59E4401D070B1D00F5C291 /* SocketChat */,
-				DD59E40C1D070A7900F5C291 /* SocketIO */,
 				DD6D90B81CD39BD0004E3D62 /* wellness */,
 				DD6D90CD1CD39BD0004E3D62 /* wellnessTests */,
 				DD6D90D81CD39BD0004E3D62 /* wellnessUITests */,
@@ -362,6 +362,8 @@
 		DD6D90B81CD39BD0004E3D62 /* wellness */ = {
 			isa = PBXGroup;
 			children = (
+				DD59E4401D070B1D00F5C291 /* SocketChat */,
+				DD59E40C1D070A7900F5C291 /* SocketIO */,
 				DD7561F11CFD2AEC007DDF61 /* Image */,
 				DD7561F01CFD2AD2007DDF61 /* Health */,
 				DD7561EF1CFD2A56007DDF61 /* Main */,
