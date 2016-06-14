@@ -14,6 +14,17 @@
 		DD01481C1CE71C7200C79D96 /* WellLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD01481B1CE71C7200C79D96 /* WellLog.swift */; };
 		DD01483B1CEC63BC00C79D96 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0148281CEC5E5800C79D96 /* Alamofire.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		DD01483D1CECAD4200C79D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD01483C1CECAD4200C79D96 /* Main.storyboard */; };
+		DD0E06D91D0878C90062762C /* SNSWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E06D81D0878C90062762C /* SNSWrite.swift */; };
+		DD1570751D090E5A00F408ED /* HealthContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1570741D090E5A00F408ED /* HealthContent.swift */; };
+		DD15707E1D0910F600F408ED /* HealthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15707D1D0910F600F408ED /* HealthCell.swift */; };
+		DD15708D1D09177600F408ED /* FoodContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15708C1D09177600F408ED /* FoodContent.swift */; };
+		DD15708F1D09178200F408ED /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15708E1D09178200F408ED /* FoodCell.swift */; };
+		DD1570911D091B5000F408ED /* LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1570901D091B5000F408ED /* LogCell.swift */; };
+		DD1570931D091B5A00F408ED /* LogContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1570921D091B5A00F408ED /* LogContent.swift */; };
+		DD1570971D096B6300F408ED /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1570961D096B6300F408ED /* ChatCell.swift */; };
+		DD1570991D096BAB00F408ED /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1570981D096BAB00F408ED /* BaseCell.swift */; };
+		DD15709B1D0974B900F408ED /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15709A1D0974B900F408ED /* UserCell.swift */; };
+		DD15709D1D0C050700F408ED /* WebChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15709C1D0C050700F408ED /* WebChat.swift */; };
 		DD350FB01CE521E000CA36DC /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = DD350FAF1CE521E000CA36DC /* sample.png */; };
 		DD350FB21CE5259500CA36DC /* SNSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD350FB11CE5259500CA36DC /* SNSTabBar.swift */; };
 		DD350FB41CE61A1700CA36DC /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD350FB31CE61A1700CA36DC /* Login.swift */; };
@@ -40,6 +51,9 @@
 		DD59E43D1D070AF300F5C291 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59E4271D070AF300F5C291 /* SocketTypes.swift */; };
 		DD59E43E1D070AF300F5C291 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59E4281D070AF300F5C291 /* SwiftRegex.swift */; };
 		DD59E43F1D070AF300F5C291 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59E4291D070AF300F5C291 /* WebSocket.swift */; };
+		DD59E4441D070C6F00F5C291 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59E4431D070C6F00F5C291 /* SocketIOManager.swift */; };
+		DD59E4471D070C7F00F5C291 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59E4451D070C7F00F5C291 /* UsersViewController.swift */; };
+		DD59E4481D070C7F00F5C291 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59E4461D070C7F00F5C291 /* ChatViewController.swift */; };
 		DD6D90BA1CD39BD0004E3D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D90B91CD39BD0004E3D62 /* AppDelegate.swift */; };
 		DD6D90BC1CD39BD0004E3D62 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D90BB1CD39BD0004E3D62 /* Main.swift */; };
 		DD6D90C11CD39BD0004E3D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6D90C01CD39BD0004E3D62 /* Assets.xcassets */; };
@@ -48,6 +62,9 @@
 		DD6D90DA1CD39BD0004E3D62 /* wellnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D90D91CD39BD0004E3D62 /* wellnessUITests.swift */; };
 		DDA2AFFB1CD63E5D00F2FD55 /* SNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2AFFA1CD63E5D00F2FD55 /* SNS.swift */; };
 		DDA2AFFD1CD63F0100F2FD55 /* Wellness.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2AFFC1CD63F0100F2FD55 /* Wellness.swift */; };
+		DDA7E1DC1D0898340011DDE8 /* SNSCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA7E1DB1D0898340011DDE8 /* SNSCell.swift */; };
+		DDD342411D0C2442001EBC66 /* WellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD342401D0C2442001EBC66 /* WellCell.swift */; };
+		DDD342431D0C2457001EBC66 /* WellContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD342421D0C2457001EBC66 /* WellContent.swift */; };
 		DDF3C57D1D06641400A7CB29 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0148281CEC5E5800C79D96 /* Alamofire.framework */; };
 		DDF3C57E1D06641400A7CB29 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD0148281CEC5E5800C79D96 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DDF4F4921CFD4EFB00CC4F5F /* SNSContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF4F4911CFD4EFB00CC4F5F /* SNSContent.swift */; };
@@ -155,6 +172,17 @@
 		DD01481B1CE71C7200C79D96 /* WellLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WellLog.swift; sourceTree = "<group>"; };
 		DD01481D1CEC5E5800C79D96 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		DD01483C1CECAD4200C79D96 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		DD0E06D81D0878C90062762C /* SNSWrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSWrite.swift; sourceTree = "<group>"; };
+		DD1570741D090E5A00F408ED /* HealthContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthContent.swift; sourceTree = "<group>"; };
+		DD15707D1D0910F600F408ED /* HealthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthCell.swift; sourceTree = "<group>"; };
+		DD15708C1D09177600F408ED /* FoodContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodContent.swift; sourceTree = "<group>"; };
+		DD15708E1D09178200F408ED /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		DD1570901D091B5000F408ED /* LogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogCell.swift; sourceTree = "<group>"; };
+		DD1570921D091B5A00F408ED /* LogContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogContent.swift; sourceTree = "<group>"; };
+		DD1570961D096B6300F408ED /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		DD1570981D096BAB00F408ED /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		DD15709A1D0974B900F408ED /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		DD15709C1D0C050700F408ED /* WebChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebChat.swift; sourceTree = "<group>"; };
 		DD350FAF1CE521E000CA36DC /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample.png; path = ../../../../Downloads/sample.png; sourceTree = "<group>"; };
 		DD350FB11CE5259500CA36DC /* SNSTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSTabBar.swift; sourceTree = "<group>"; };
 		DD350FB31CE61A1700CA36DC /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -181,6 +209,9 @@
 		DD59E4271D070AF300F5C291 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = "../../../Downloads/SocketIOChat-master/Source/SocketTypes.swift"; sourceTree = "<group>"; };
 		DD59E4281D070AF300F5C291 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = "../../../Downloads/SocketIOChat-master/Source/SwiftRegex.swift"; sourceTree = "<group>"; };
 		DD59E4291D070AF300F5C291 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = "../../../Downloads/SocketIOChat-master/Source/WebSocket.swift"; sourceTree = "<group>"; };
+		DD59E4431D070C6F00F5C291 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOManager.swift; path = "../../../Downloads/SocketIOChat-master/SocketChat/SocketIOManager.swift"; sourceTree = "<group>"; };
+		DD59E4451D070C7F00F5C291 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersViewController.swift; path = "../../../Downloads/SocketIOChat-master/SocketChat/UsersViewController.swift"; sourceTree = "<group>"; };
+		DD59E4461D070C7F00F5C291 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = "../../../Downloads/SocketIOChat-master/SocketChat/ChatViewController.swift"; sourceTree = "<group>"; };
 		DD6D90B61CD39BD0004E3D62 /* wellness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wellness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6D90B91CD39BD0004E3D62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD6D90BB1CD39BD0004E3D62 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
@@ -195,6 +226,9 @@
 		DD6D90DB1CD39BD0004E3D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDA2AFFA1CD63E5D00F2FD55 /* SNS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNS.swift; sourceTree = "<group>"; };
 		DDA2AFFC1CD63F0100F2FD55 /* Wellness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wellness.swift; sourceTree = "<group>"; };
+		DDA7E1DB1D0898340011DDE8 /* SNSCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSCell.swift; sourceTree = "<group>"; };
+		DDD342401D0C2442001EBC66 /* WellCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WellCell.swift; sourceTree = "<group>"; };
+		DDD342421D0C2457001EBC66 /* WellContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WellContent.swift; sourceTree = "<group>"; };
 		DDF4F4911CFD4EFB00CC4F5F /* SNSContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -288,6 +322,7 @@
 		DD59E4411D070B9200F5C291 /* SocketIO */ = {
 			isa = PBXGroup;
 			children = (
+				DD59E4431D070C6F00F5C291 /* SocketIOManager.swift */,
 			);
 			name = SocketIO;
 			sourceTree = "<group>";
@@ -295,6 +330,8 @@
 		DD59E4421D070B9B00F5C291 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DD59E4451D070C7F00F5C291 /* UsersViewController.swift */,
+				DD59E4461D070C7F00F5C291 /* ChatViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -359,13 +396,25 @@
 		DD7561E81CFD2A32007DDF61 /* SNS */ = {
 			isa = PBXGroup;
 			children = (
-				DDF4F4911CFD4EFB00CC4F5F /* SNSContent.swift */,
-				DD01481B1CE71C7200C79D96 /* WellLog.swift */,
-				DD0148171CE71BFE00C79D96 /* WellChat.swift */,
-				DD0148151CE71BCC00C79D96 /* HealthRoutine.swift */,
+				DD15708E1D09178200F408ED /* FoodCell.swift */,
+				DD15708C1D09177600F408ED /* FoodContent.swift */,
 				DD0148191CE71C3D00C79D96 /* FoodRoutine.swift */,
-				DD350FB11CE5259500CA36DC /* SNSTabBar.swift */,
+				DD15707D1D0910F600F408ED /* HealthCell.swift */,
+				DD1570741D090E5A00F408ED /* HealthContent.swift */,
+				DD0148151CE71BCC00C79D96 /* HealthRoutine.swift */,
+				DD1570901D091B5000F408ED /* LogCell.swift */,
+				DD1570921D091B5A00F408ED /* LogContent.swift */,
 				DDA2AFFA1CD63E5D00F2FD55 /* SNS.swift */,
+				DDA7E1DB1D0898340011DDE8 /* SNSCell.swift */,
+				DDF4F4911CFD4EFB00CC4F5F /* SNSContent.swift */,
+				DD350FB11CE5259500CA36DC /* SNSTabBar.swift */,
+				DD0E06D81D0878C90062762C /* SNSWrite.swift */,
+				DD0148171CE71BFE00C79D96 /* WellChat.swift */,
+				DD01481B1CE71C7200C79D96 /* WellLog.swift */,
+				DD1570961D096B6300F408ED /* ChatCell.swift */,
+				DD1570981D096BAB00F408ED /* BaseCell.swift */,
+				DD15709A1D0974B900F408ED /* UserCell.swift */,
+				DD15709C1D0C050700F408ED /* WebChat.swift */,
 			);
 			name = SNS;
 			sourceTree = "<group>";
@@ -385,6 +434,8 @@
 			isa = PBXGroup;
 			children = (
 				DDA2AFFC1CD63F0100F2FD55 /* Wellness.swift */,
+				DDD342401D0C2442001EBC66 /* WellCell.swift */,
+				DDD342421D0C2457001EBC66 /* WellContent.swift */,
 			);
 			name = Health;
 			sourceTree = "<group>";
@@ -593,12 +644,19 @@
 				DD6D90BC1CD39BD0004E3D62 /* Main.swift in Sources */,
 				DD59E4351D070AF300F5C291 /* SocketFixUTF8.swift in Sources */,
 				DD0148161CE71BCC00C79D96 /* HealthRoutine.swift in Sources */,
+				DDD342411D0C2442001EBC66 /* WellCell.swift in Sources */,
 				DD59E42C1D070AF300F5C291 /* SocketAnyEvent.swift in Sources */,
+				DD1570991D096BAB00F408ED /* BaseCell.swift in Sources */,
+				DD59E4441D070C6F00F5C291 /* SocketIOManager.swift in Sources */,
 				DD59E4321D070AF300F5C291 /* SocketEngineSpec.swift in Sources */,
 				DD01481C1CE71C7200C79D96 /* WellLog.swift in Sources */,
+				DD15708F1D09178200F408ED /* FoodCell.swift in Sources */,
 				DD59E43C1D070AF300F5C291 /* SocketStringReader.swift in Sources */,
 				DD59E43B1D070AF300F5C291 /* SocketParsable.swift in Sources */,
 				DD59E4311D070AF300F5C291 /* SocketEnginePollable.swift in Sources */,
+				DD0E06D91D0878C90062762C /* SNSWrite.swift in Sources */,
+				DD15709B1D0974B900F408ED /* UserCell.swift in Sources */,
+				DD1570931D091B5A00F408ED /* LogContent.swift in Sources */,
 				DD59E42F1D070AF300F5C291 /* SocketEngineClient.swift in Sources */,
 				DD350FB21CE5259500CA36DC /* SNSTabBar.swift in Sources */,
 				DD59E4381D070AF300F5C291 /* SocketIOClientStatus.swift in Sources */,
@@ -607,20 +665,30 @@
 				DDA2AFFB1CD63E5D00F2FD55 /* SNS.swift in Sources */,
 				DD59E42E1D070AF300F5C291 /* SocketEngine.swift in Sources */,
 				DD59E4301D070AF300F5C291 /* SocketEnginePacketType.swift in Sources */,
+				DD1570911D091B5000F408ED /* LogCell.swift in Sources */,
+				DDA7E1DC1D0898340011DDE8 /* SNSCell.swift in Sources */,
 				DD59E4331D070AF300F5C291 /* SocketEngineWebsocket.swift in Sources */,
+				DD15709D1D0C050700F408ED /* WebChat.swift in Sources */,
 				DD59E4341D070AF300F5C291 /* SocketEventHandler.swift in Sources */,
 				DD350FB41CE61A1700CA36DC /* Login.swift in Sources */,
 				DD59E42B1D070AF300F5C291 /* SocketAckManager.swift in Sources */,
+				DDD342431D0C2457001EBC66 /* WellContent.swift in Sources */,
 				DD59E4391D070AF300F5C291 /* SocketLogger.swift in Sources */,
 				DD0148141CE71A1A00C79D96 /* CheckCookie.swift in Sources */,
+				DD1570751D090E5A00F408ED /* HealthContent.swift in Sources */,
 				DD6D90BA1CD39BD0004E3D62 /* AppDelegate.swift in Sources */,
+				DD15707E1D0910F600F408ED /* HealthCell.swift in Sources */,
 				DD59E42D1D070AF300F5C291 /* SocketClientSpec.swift in Sources */,
 				DDF4F4921CFD4EFB00CC4F5F /* SNSContent.swift in Sources */,
+				DD59E4471D070C7F00F5C291 /* UsersViewController.swift in Sources */,
 				DD0148181CE71BFE00C79D96 /* WellChat.swift in Sources */,
 				DD01481A1CE71C3D00C79D96 /* FoodRoutine.swift in Sources */,
+				DD59E4481D070C7F00F5C291 /* ChatViewController.swift in Sources */,
 				DD59E42A1D070AF300F5C291 /* SocketAckEmitter.swift in Sources */,
 				DD59E4361D070AF300F5C291 /* SocketIOClient.swift in Sources */,
 				DD59E4371D070AF300F5C291 /* SocketIOClientOption.swift in Sources */,
+				DD15708D1D09177600F408ED /* FoodContent.swift in Sources */,
+				DD1570971D096B6300F408ED /* ChatCell.swift in Sources */,
 				DD59E43E1D070AF300F5C291 /* SwiftRegex.swift in Sources */,
 				DDA2AFFD1CD63F0100F2FD55 /* Wellness.swift in Sources */,
 				DD350FB61CE7010C00CA36DC /* Regist.swift in Sources */,

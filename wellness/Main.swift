@@ -14,8 +14,13 @@ class Main: UIViewController{
     @IBOutlet var wellBTN: UIButton!
     @IBOutlet var myWebView: UIWebView!
     
+    @IBOutlet var IDLabel: UILabel!
+    var userID:String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.IDLabel.text = userID
+        
         // 화면이 불려지면 웹뷰가 시작
         let url = NSURL (string: "http://www.gudwns999.com");
         let requestObj = NSURLRequest(URL: url!);

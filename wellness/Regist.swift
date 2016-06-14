@@ -16,6 +16,7 @@ class Regist : UIViewController, UITextFieldDelegate{
     @IBOutlet var RegistAgreeSW: UISwitch!
     @IBOutlet var RegistSubmitBTN: UIButton!
     @IBOutlet weak var RegistCheckUL: UILabel!
+    
     //Flag
     var confirmFlag = 0
     //성별(고정값 남)

@@ -33,7 +33,14 @@ class Login : UIViewController,UITextFieldDelegate{
     }
     //회원가입 버튼 눌렀을 시
     @IBAction func SendRegistBTN(sender: UIButton) {
-
+  //      if let uvc = self.storyboard?.instantiateViewControllerWithIdentifier("MRegist"){
+  //      self.navigationController?.pushViewController(uvc, animated: true)
+  //      }
+    }
+    //유저 아이디는 계속 쓰이므로 다음페이지에 값을 넘겨준다.
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let destination = segue.destinationViewController as! Main
+        destination.userID = "ssss"
     }
     
     //checkID시 HTTP Post를 사용하기 때문에 딜레이가 필요하다.
@@ -72,7 +79,6 @@ class Login : UIViewController,UITextFieldDelegate{
                             //유저 찾으면 다음 화면으로 이동.
                             indicator.stopAnimating();
                             self.dismissViewControllerAnimated(false, completion: nil)
-                            
                             self.TestLabel.text = "확인"
                             let storyboard = UIStoryboard(name: "Main", bundle: nil)
                             let nextViewController = storyboard.instantiateViewControllerWithIdentifier("MMain") as! Main
